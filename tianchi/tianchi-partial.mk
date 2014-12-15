@@ -14,33 +14,7 @@
 
 PRODUCT_PACKAGES += \
 	hci_qcomm_init \
-	irsc_util \
-	netmgrd \
-	qmiproxy \
-	qmuxd \
-	sct_service \
 	sensors \
-	MTP_Bluetooth_cal \
-	MTP_General_cal \
-	MTP_Global_cal \
-	MTP_Handset_cal \
-	MTP_Hdmi_cal \
-	MTP_Headset_cal \
-	MTP_Speaker_cal \
-	QRD_Bluetooth_cal \
-	QRD_General_cal \
-	QRD_Global_cal \
-	QRD_Handset_cal \
-	QRD_Hdmi_cal \
-	QRD_Headset_cal \
-	QRD_Speaker_cal \
-	a225_pfp \
-	a225_pm4 \
-	a225p5_pm4 \
-	a300_pfp \
-	a300_pm4 \
-	a330_pfp \
-	a330_pm4 \
 	adsp_b00 \
 	adsp_b01 \
 	adsp_b02 \
@@ -64,8 +38,6 @@ PRODUCT_PACKAGES += \
 	cpp_firmware_v1_1_6 \
 	cpp_firmware_v1_2_0 \
 	cyttsp4_fw \
-	leia_pfp_470 \
-	leia_pm4_470 \
 	mba_b00 \
 	mba_mdt \
 	modem_b00 \
@@ -122,99 +94,6 @@ PRODUCT_PACKAGES += \
 	wcnss_b08 \
 	wcnss_b09 \
 	wcnss_mdt \
-	WCNSS_cfg \
-	WCNSS_qcom_cfg \
-	WCNSS_qcom_wlan_nv \
-	copybit.msm8226 \
-	nfc_nci_pn547.msm8226 \
-	libkeyctrl \
-	libmm-omxcore \
-	libmmjpeg_interface \
-	libpin-cache \
-	libqomx_core \
-	libvirtual \
-	scsi_wait_scan \
 	wlan \
 	libpn547_fw \
-	sensors.msm8226 \
-	libCommandSvc \
-	libExtendedExtractor \
-	libFileMux \
-	libOmxAacDec \
-	libOmxAmrwbplusDec \
-	libOmxMux \
-	libStDrvInt \
-	libTimeService \
-	libWVStreamControlAPI_L3 \
-	libacdbloader \
-	libacdbmapper \
-	libacdbrtac \
-	libadiertac \
-	libaudcal \
-	libaudioalsa \
-	libbtnv \
-	libcneqmiutils \
-	libconfigdb \
-	libdsi_netctrl \
-	libdsnetutils \
-	libdsucsd \
-	libdsutils \
-	libfastcvadsp_stub \
-	libidl \
-	libjpegdhw \
-	libjpegehw \
-	liblbs_core \
-	liblisten \
-	liblistenhardware \
-	libmm-abl-oem \
-	libmmhttpstack \
-	libmmiipstreammmihttp \
-	libmmipl \
-	libmmipstreamaal \
-	libmmipstreamnetwork \
-	libmmipstreamsourcehttp \
-	libmmipstreamutils \
-	libmmjpeg \
-	libmmosal \
-	libmmparser \
-	libmmqjpeg_codec \
-	libmmrtpdecoder \
-	libmmrtpencoder \
-	libmmwfdinterface \
-	libmmwfdsinkinterface \
-	libmmwfdsrcinterface \
-	libnetmgr \
-	liboi_sbc_decoder \
-	libqcci_legacy \
-	libqdi \
-	libqdp \
-	libqmi \
-	libqmi_cci \
-	libqmi_client_qmux \
-	libqmi_common_so \
-	libqmi_csi \
-	libqmi_csvt_srvc \
-	libqmi_encdec \
-	libqmiservices \
-	libqomx_jpegdec \
-	libqomx_jpegenc \
-	libril-qc-qmi-1 \
-	libsensor1 \
-	libsensor_reg \
-	libsubsystem_control \
-	libthermalclient \
-	libthermalioctl \
-	libtime_genoff \
-	libwfdcommonutils \
-	libwfdmmsink \
-	libwfdmmsrc \
-	libwfdmmutils \
-	libwfdrtsp \
-	libwfdsm \
-	libwfduibcinterface \
-	libwfduibcsink \
-	libwfduibcsinkinterface \
-	libwfduibcsrc \
-	libwfduibcsrcinterface \
-	libwvdrm_L3 \
-	libxml
+	sensors.msm8226

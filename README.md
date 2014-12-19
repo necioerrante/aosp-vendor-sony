@@ -1,1 +1,1 @@
-Sony Mobile's vendor blobs for AOSP KitKat
+Sony Mobile's vendor blobs for AOSP Lollipop

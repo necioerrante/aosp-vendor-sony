@@ -59,7 +59,6 @@ PRODUCT_PACKAGES += \
 	libpin-cache \
 	libqomx_core \
 	libta \
-	libvirtual \
 	libdrmwvmplugin \
 	eglsubAndroid \
 	libEGL_adreno \

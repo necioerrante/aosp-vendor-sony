@@ -16,4 +16,6 @@ PRODUCT_PACKAGES += \
 	sensors \
 	Handset_cal \
 	Speaker_cal \
-	bcmdhd
+	bcmdhd \
+	fw_bcmdhd \
+	fw_bcmdhd_apsta

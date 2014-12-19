@@ -14,7 +14,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(PRODUCT_PLATFORM),Rhine)
+ifeq ($(PRODUCT_PLATFORM),rhine)
 include $(CLEAR_VARS)
 LOCAL_MODULE := bt_addr
 LOCAL_MODULE_OWNER := Sony Mobile

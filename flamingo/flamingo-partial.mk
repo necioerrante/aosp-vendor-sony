@@ -15,6 +15,7 @@
 PRODUCT_PACKAGES += \
 	btnvtool \
 	hci_qcomm_init \
+	sensors \
 	adsp_b00 \
 	adsp_b01 \
 	adsp_b02 \
@@ -90,6 +91,7 @@ PRODUCT_PACKAGES += \
 	widevine_b02 \
 	widevine_b03 \
 	widevine_mdt \
+	libpn547_fw \
 	sensors.msm8226 \
-	wlan \
-	libpn547_fw
+	libsensor1 \
+	libsensor_reg

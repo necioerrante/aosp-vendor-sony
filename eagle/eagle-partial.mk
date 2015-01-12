@@ -49,5 +49,5 @@ PRODUCT_PACKAGES += \
 	venus_mbn \
 	venus_mdt \
 	sensors.msm8226 \
-	wlan \
+	libyasalgo \
 	libpn547_fw

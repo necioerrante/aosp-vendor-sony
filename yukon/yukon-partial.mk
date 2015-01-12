@@ -54,7 +54,6 @@ PRODUCT_PACKAGES += \
 	libdiag \
 	libkeyctrl \
 	libmiscta \
-	libmm-omxcore \
 	libmmjpeg_interface \
 	libpin-cache \
 	libqomx_core \
@@ -143,6 +142,8 @@ PRODUCT_PACKAGES += \
 	liblistensoundmodel \
 	libllvm-qcom \
 	libloc2jnibridge \
+	libloc_api_v02 \
+	libloc_ds_api \
 	libmm-abl-oem \
 	libmm-abl \
 	libmm-color-convertor \
@@ -194,8 +195,6 @@ PRODUCT_PACKAGES += \
 	libsc-a3xx \
 	libscale \
 	libscve \
-	libsensor1 \
-	libsensor_reg \
 	libsrsprocessing \
 	libssd \
 	libsubsystem_control \

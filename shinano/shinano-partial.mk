@@ -103,20 +103,13 @@ PRODUCT_PACKAGES += \
 	venus_b04 \
 	venus_mbn \
 	venus_mdt \
-	audio.primary.msm8974 \
 	copybit.msm8974 \
-	nfc_nci.msm8974 \
 	libMcClient \
 	libMcRegistry \
 	libOmxAacEnc \
 	libOmxAmrEnc \
-	libOmxCore \
 	libOmxEvrcEnc \
 	libOmxQcelp13Enc \
-	libOmxVdec \
-	libOmxVenc \
-	libc2dcolorconvert \
-	libdivxdrmdecrypt \
 	libidd \
 	libkeyctrl \
 	liblights-core \
@@ -124,12 +117,10 @@ PRODUCT_PACKAGES += \
 	libnpfinal \
 	libpin-cache \
 	libprotobuf-c \
-	libstagefrighthw \
 	libsys-utils \
 	libta \
 	libvirtual \
 	effect_init_params \
-	libpn544_fw \
 	libpn547_fw \
 	eglsubAndroid \
 	libEGL_adreno \
@@ -166,6 +157,8 @@ PRODUCT_PACKAGES += \
 	libgsl \
 	libidl \
 	libllvm-qcom \
+	libloc_api_v02 \
+	libloc_ds_api \
 	libmm-abl-oem \
 	libmm-abl \
 	libnetmgr \

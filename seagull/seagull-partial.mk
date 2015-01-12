@@ -46,5 +46,5 @@ PRODUCT_PACKAGES += \
 	venus_b03 \
 	venus_b04 \
 	venus_mdt \
-	wlan \
+	sensors.default \
 	libpn547_fw

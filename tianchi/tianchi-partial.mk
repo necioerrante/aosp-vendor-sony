@@ -71,6 +71,7 @@ PRODUCT_PACKAGES += \
 	wcnss_b08 \
 	wcnss_b09 \
 	wcnss_mdt \
-	wlan \
 	libpn547_fw \
-	sensors.msm8226
+	sensors.msm8226 \
+	libsensor1 \
+	libsensor_reg

@@ -15,5 +15,4 @@
 PRODUCT_PACKAGES += \
 	sensors \
 	Handset_cal \
-	Speaker_cal \
-	wlan
+	Speaker_cal

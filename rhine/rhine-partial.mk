@@ -127,26 +127,19 @@ PRODUCT_PACKAGES += \
 	libMcRegistry \
 	libOmxAacEnc \
 	libOmxAmrEnc \
-	libOmxCore \
 	libOmxEvrcEnc \
 	libOmxQcelp13Enc \
-	libOmxVdec \
-	libOmxVenc \
-	libc2dcolorconvert \
 	libcnefeatureconfig \
-	libdivxdrmdecrypt \
 	libexcal_core \
 	libexcal_system \
 	libidd \
 	libkeyctrl \
 	libmiscta \
-	libmm-omxcore \
 	libmmjpeg_interface \
 	libnpfinal \
 	libpin-cache \
 	libprotobuf-c \
 	libqomx_core \
-	libstagefrighthw \
 	libta \
 	effect_init_params \
 	libpn544_fw \
@@ -188,6 +181,8 @@ PRODUCT_PACKAGES += \
 	libidl \
 	liblistenhardware \
 	libllvm-qcom \
+	libloc_api_v02 \
+	libloc_ds_api \
 	libmm-abl-oem \
 	libmm-abl \
 	libmm-color-convertor \

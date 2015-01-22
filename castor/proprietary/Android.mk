@@ -26,26 +26,6 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/bin
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := Handset_cal
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := etc/Handset_cal.acdb
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .acdb
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT)/etc
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := Speaker_cal
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := etc/Speaker_cal.acdb
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .acdb
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT)/etc
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := fw_bcmdhd
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/firmware/fw_bcmdhd.bin

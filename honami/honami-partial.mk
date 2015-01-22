@@ -13,6 +13,4 @@
 # limitations under the License.
 
 PRODUCT_PACKAGES += \
-	sensors \
-	Handset_cal \
-	Speaker_cal
+	sensors

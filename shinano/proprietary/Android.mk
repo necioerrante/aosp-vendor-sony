@@ -36,6 +36,16 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/bin
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := mlog_qmi_service
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := bin/mlog_qmi_service
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_SUFFIX := 
+LOCAL_MODULE_CLASS := EXECUTABLES
+LOCAL_MODULE_PATH := $(TARGET_OUT)/bin
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := netmgrd
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := bin/netmgrd
@@ -93,146 +103,6 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := 
 LOCAL_MODULE_CLASS := EXECUTABLES
 LOCAL_MODULE_PATH := $(TARGET_OUT)/bin
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := Fluid_Bluetooth_cal
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := etc/acdbdata/Fluid/Fluid_Bluetooth_cal.acdb
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .acdb
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/acdbdata/Fluid
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := Fluid_General_cal
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := etc/acdbdata/Fluid/Fluid_General_cal.acdb
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .acdb
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/acdbdata/Fluid
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := Fluid_Global_cal
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := etc/acdbdata/Fluid/Fluid_Global_cal.acdb
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .acdb
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/acdbdata/Fluid
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := Fluid_Handset_cal
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := etc/acdbdata/Fluid/Fluid_Handset_cal.acdb
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .acdb
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/acdbdata/Fluid
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := Fluid_Hdmi_cal
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := etc/acdbdata/Fluid/Fluid_Hdmi_cal.acdb
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .acdb
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/acdbdata/Fluid
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := Fluid_Headset_cal
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := etc/acdbdata/Fluid/Fluid_Headset_cal.acdb
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .acdb
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/acdbdata/Fluid
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := Fluid_Speaker_cal
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := etc/acdbdata/Fluid/Fluid_Speaker_cal.acdb
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .acdb
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/acdbdata/Fluid
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := Liquid_Bluetooth_cal
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := etc/acdbdata/Liquid/Liquid_Bluetooth_cal.acdb
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .acdb
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/acdbdata/Liquid
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := Liquid_General_cal
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := etc/acdbdata/Liquid/Liquid_General_cal.acdb
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .acdb
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/acdbdata/Liquid
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := Liquid_Global_cal
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := etc/acdbdata/Liquid/Liquid_Global_cal.acdb
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .acdb
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/acdbdata/Liquid
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := Liquid_Handset_cal
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := etc/acdbdata/Liquid/Liquid_Handset_cal.acdb
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .acdb
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/acdbdata/Liquid
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := Liquid_Hdmi_cal
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := etc/acdbdata/Liquid/Liquid_Hdmi_cal.acdb
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .acdb
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/acdbdata/Liquid
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := Liquid_Headset_cal
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := etc/acdbdata/Liquid/Liquid_Headset_cal.acdb
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .acdb
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/acdbdata/Liquid
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := Liquid_Speaker_cal
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := etc/acdbdata/Liquid/Liquid_Speaker_cal.acdb
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .acdb
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/acdbdata/Liquid
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -585,6 +455,36 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := cpp_firmware_v1_1_1
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := etc/firmware/cpp_firmware_v1_1_1.fw
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_SUFFIX := .fw
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := cpp_firmware_v1_1_6
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := etc/firmware/cpp_firmware_v1_1_6.fw
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_SUFFIX := .fw
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := cpp_firmware_v1_2_0
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := etc/firmware/cpp_firmware_v1_2_0.fw
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_SUFFIX := .fw
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := leia_pfp_470
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := etc/firmware/leia_pfp_470.fw
@@ -887,6 +787,61 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := tzwidevine_b00
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := etc/firmware/tzwidevine.b00
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := tzwidevine
+LOCAL_MODULE_SUFFIX := .b00
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := tzwidevine_b01
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := etc/firmware/tzwidevine.b01
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := tzwidevine
+LOCAL_MODULE_SUFFIX := .b01
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := tzwidevine_b02
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := etc/firmware/tzwidevine.b02
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := tzwidevine
+LOCAL_MODULE_SUFFIX := .b02
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := tzwidevine_b03
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := etc/firmware/tzwidevine.b03
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := tzwidevine
+LOCAL_MODULE_SUFFIX := .b03
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := tzwidevine_mdt
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := etc/firmware/tzwidevine.mdt
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := tzwidevine
+LOCAL_MODULE_SUFFIX := .mdt
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := venus_b00
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := etc/firmware/venus.b00
@@ -974,66 +929,6 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/lib/hw
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libMcClient
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := lib/libMcClient.so
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_PATH := $(TARGET_OUT)/lib
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := libMcRegistry
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := lib/libMcRegistry.so
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_PATH := $(TARGET_OUT)/lib
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := libOmxAacEnc
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := lib/libOmxAacEnc.so
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_PATH := $(TARGET_OUT)/lib
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := libOmxAmrEnc
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := lib/libOmxAmrEnc.so
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_PATH := $(TARGET_OUT)/lib
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := libOmxEvrcEnc
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := lib/libOmxEvrcEnc.so
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_PATH := $(TARGET_OUT)/lib
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := libOmxQcelp13Enc
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := lib/libOmxQcelp13Enc.so
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_PATH := $(TARGET_OUT)/lib
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := libidd
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := lib/libidd.so
@@ -1047,16 +942,6 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := libkeyctrl
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := lib/libkeyctrl.so
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_PATH := $(TARGET_OUT)/lib
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := liblights-core
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := lib/liblights-core.so
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
@@ -1104,29 +989,9 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libsys-utils
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := lib/libsys-utils.so
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_PATH := $(TARGET_OUT)/lib
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := libta
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := lib/libta.so
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_PATH := $(TARGET_OUT)/lib
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := libvirtual
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := lib/libvirtual.so
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
@@ -1141,6 +1006,61 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := 
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/etc
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := keymaster_b00
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/firmware/keymaster/keymaster.b00
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := keymaster
+LOCAL_MODULE_SUFFIX := .b00
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/firmware/keymaster
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := keymaster_b01
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/firmware/keymaster/keymaster.b01
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := keymaster
+LOCAL_MODULE_SUFFIX := .b01
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/firmware/keymaster
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := keymaster_b02
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/firmware/keymaster/keymaster.b02
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := keymaster
+LOCAL_MODULE_SUFFIX := .b02
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/firmware/keymaster
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := keymaster_b03
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/firmware/keymaster/keymaster.b03
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := keymaster
+LOCAL_MODULE_SUFFIX := .b03
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/firmware/keymaster
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := keymaster_mdt
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/firmware/keymaster/keymaster.mdt
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := keymaster
+LOCAL_MODULE_SUFFIX := .mdt
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/firmware/keymaster
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -1224,26 +1144,6 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libCB
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := vendor/lib/libCB.so
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := libI420colorconvert
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := vendor/lib/libI420colorconvert.so
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := libOpenCL
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib/libOpenCL.so
@@ -1257,16 +1157,6 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := libOpenVG
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib/libOpenVG.so
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := libQSEEComAPI
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := vendor/lib/libQSEEComAPI.so
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
@@ -1364,6 +1254,16 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := libbtnv
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/lib/libbtnv.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := libc2d2_z180
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib/libc2d2_z180.so
@@ -1407,36 +1307,6 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := libdiag
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib/libdiag.so
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := libdrmdiag
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := vendor/lib/libdrmdiag.so
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := libdrmfs
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := vendor/lib/libdrmfs.so
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := libdrmtime
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := vendor/lib/libdrmtime.so
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
@@ -1494,16 +1364,6 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libllvm-qcom
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := vendor/lib/libllvm-qcom.so
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := libloc_api_v02
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib/libloc_api_v02.so
@@ -1544,9 +1404,9 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libnetmgr
+LOCAL_MODULE := libmm-color-convertor
 LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := vendor/lib/libnetmgr.so
+LOCAL_SRC_FILES := vendor/lib/libmm-color-convertor.so
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
@@ -1554,9 +1414,9 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libqc-opt
+LOCAL_MODULE := libnetmgr
 LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := vendor/lib/libqc-opt.so
+LOCAL_SRC_FILES := vendor/lib/libnetmgr.so
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES

@@ -15,26 +15,13 @@
 PRODUCT_PACKAGES += \
 	bt_addr \
 	irsc_util \
+	mlog_qmi_service \
 	netmgrd \
 	qmuxd \
 	rmt_storage \
 	sct_service \
 	ta_qmi_service \
 	tad_static \
-	Fluid_Bluetooth_cal \
-	Fluid_General_cal \
-	Fluid_Global_cal \
-	Fluid_Handset_cal \
-	Fluid_Hdmi_cal \
-	Fluid_Headset_cal \
-	Fluid_Speaker_cal \
-	Liquid_Bluetooth_cal \
-	Liquid_General_cal \
-	Liquid_Global_cal \
-	Liquid_Handset_cal \
-	Liquid_Hdmi_cal \
-	Liquid_Headset_cal \
-	Liquid_Speaker_cal \
 	MTP_Bluetooth_cal \
 	MTP_General_cal \
 	MTP_Global_cal \
@@ -68,6 +55,9 @@ PRODUCT_PACKAGES += \
 	cmnlib_b02 \
 	cmnlib_b03 \
 	cmnlib_mdt \
+	cpp_firmware_v1_1_1 \
+	cpp_firmware_v1_1_6 \
+	cpp_firmware_v1_2_0 \
 	leia_pfp_470 \
 	leia_pm4_470 \
 	mba_b00 \
@@ -96,6 +86,11 @@ PRODUCT_PACKAGES += \
 	tzsuntory_b02 \
 	tzsuntory_b03 \
 	tzsuntory_mdt \
+	tzwidevine_b00 \
+	tzwidevine_b01 \
+	tzwidevine_b02 \
+	tzwidevine_b03 \
+	tzwidevine_mdt \
 	venus_b00 \
 	venus_b01 \
 	venus_b02 \
@@ -104,23 +99,19 @@ PRODUCT_PACKAGES += \
 	venus_mbn \
 	venus_mdt \
 	copybit.msm8974 \
-	libMcClient \
-	libMcRegistry \
-	libOmxAacEnc \
-	libOmxAmrEnc \
-	libOmxEvrcEnc \
-	libOmxQcelp13Enc \
 	libidd \
 	libkeyctrl \
-	liblights-core \
 	libmiscta \
 	libnpfinal \
 	libpin-cache \
 	libprotobuf-c \
-	libsys-utils \
 	libta \
-	libvirtual \
 	effect_init_params \
+	keymaster_b00 \
+	keymaster_b01 \
+	keymaster_b02 \
+	keymaster_b03 \
+	keymaster_mdt \
 	libpn547_fw \
 	eglsubAndroid \
 	libEGL_adreno \
@@ -129,11 +120,8 @@ PRODUCT_PACKAGES += \
 	libq3dtools_adreno \
 	sensors.msm8974 \
 	libC2D2 \
-	libCB \
-	libI420colorconvert \
 	libOpenCL \
 	libOpenVG \
-	libQSEEComAPI \
 	libRSDriver_adreno \
 	libacdbloader \
 	libacdbmapper \
@@ -143,26 +131,23 @@ PRODUCT_PACKAGES += \
 	libadsprpc \
 	libaudcal \
 	libaudioalsa \
+	libbtnv \
 	libc2d2_z180 \
 	libc2d30-a3xx \
 	libc2d30-a4xx \
 	libc2d30 \
 	libdiag \
-	libdrmdiag \
-	libdrmfs \
-	libdrmtime \
 	libdsi_netctrl \
 	libdsnetutils \
 	libdsutils \
 	libgsl \
 	libidl \
-	libllvm-qcom \
 	libloc_api_v02 \
 	libloc_ds_api \
 	libmm-abl-oem \
 	libmm-abl \
+	libmm-color-convertor \
 	libnetmgr \
-	libqc-opt \
 	libqcci_legacy \
 	libqdi \
 	libqdp \

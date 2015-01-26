@@ -15,9 +15,11 @@
 PRODUCT_PACKAGES += \
 	bt_addr \
 	hci_qcomm_init \
+	hvdcp \
 	irsc_util \
 	netmgrd \
 	qmuxd \
+	qseecomd \
 	rmt_storage \
 	sct_service \
 	ta_qmi_service \
@@ -119,7 +121,6 @@ PRODUCT_PACKAGES += \
 	WCNSS_cfg \
 	WCNSS_qcom_cfg \
 	WCNSS_qcom_wlan_nv \
-	copybit.msm8974 \
 	nfc.msm8974 \
 	libidd \
 	libkeyctrl \
@@ -143,6 +144,7 @@ PRODUCT_PACKAGES += \
 	libC2D2 \
 	libOpenCL \
 	libOpenVG \
+	libQSEEComAPI \
 	libRSDriver_adreno \
 	libacdbloader \
 	libacdbmapper \
@@ -158,6 +160,7 @@ PRODUCT_PACKAGES += \
 	libc2d30-a4xx \
 	libc2d30 \
 	libdiag \
+	libdrmfs \
 	libdsi_netctrl \
 	libdsnetutils \
 	libdsutils \

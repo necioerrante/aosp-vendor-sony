@@ -14,10 +14,12 @@
 
 PRODUCT_PACKAGES += \
 	bt_addr \
+	hvdcp \
 	irsc_util \
 	mlog_qmi_service \
 	netmgrd \
 	qmuxd \
+	qseecomd \
 	rmt_storage \
 	sct_service \
 	ta_qmi_service \
@@ -107,7 +109,6 @@ PRODUCT_PACKAGES += \
 	venus_b04 \
 	venus_mbn \
 	venus_mdt \
-	copybit.msm8974 \
 	libidd \
 	libkeyctrl \
 	libmiscta \
@@ -131,6 +132,7 @@ PRODUCT_PACKAGES += \
 	libC2D2 \
 	libOpenCL \
 	libOpenVG \
+	libQSEEComAPI \
 	libRSDriver_adreno \
 	libacdbloader \
 	libacdbmapper \
@@ -146,6 +148,7 @@ PRODUCT_PACKAGES += \
 	libc2d30-a4xx \
 	libc2d30 \
 	libdiag \
+	libdrmfs \
 	libdsi_netctrl \
 	libdsnetutils \
 	libdsutils \

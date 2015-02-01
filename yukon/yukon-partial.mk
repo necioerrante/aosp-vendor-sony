@@ -51,6 +51,12 @@ PRODUCT_PACKAGES += \
 	libpin-cache \
 	libprotobuf-c \
 	libta \
+	audio_effects \
+	keymaster_b00 \
+	keymaster_b01 \
+	keymaster_b02 \
+	keymaster_b03 \
+	keymaster_mdt \
 	eglsubAndroid \
 	libEGL_adreno \
 	libGLESv1_CM_adreno \
@@ -103,4 +109,7 @@ PRODUCT_PACKAGES += \
 	librs_adreno_sha1 \
 	libsc-a2xx \
 	libsc-a3xx \
-	libtime_genoff
+	libtime_genoff \
+	libqcbassboost \
+	libqcreverb \
+	libqcvirt

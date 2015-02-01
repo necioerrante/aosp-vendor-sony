@@ -128,6 +128,7 @@ PRODUCT_PACKAGES += \
 	libpin-cache \
 	libprotobuf-c \
 	libta \
+	audio_effects \
 	effect_init_params \
 	keymaster_b00 \
 	keymaster_b01 \
@@ -190,4 +191,7 @@ PRODUCT_PACKAGES += \
 	libsc-a3xx \
 	libsensor1 \
 	libsensor_reg \
-	libtime_genoff
+	libtime_genoff \
+	libqcbassboost \
+	libqcreverb \
+	libqcvirt

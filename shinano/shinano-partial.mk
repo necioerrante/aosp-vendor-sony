@@ -38,68 +38,8 @@ PRODUCT_PACKAGES += \
 	a300_pm4 \
 	a330_pfp \
 	a330_pm4 \
-	adsp_b00 \
-	adsp_b01 \
-	adsp_b02 \
-	adsp_b03 \
-	adsp_b04 \
-	adsp_b05 \
-	adsp_b06 \
-	adsp_b07 \
-	adsp_b08 \
-	adsp_b09 \
-	adsp_b10 \
-	adsp_b11 \
-	adsp_b12 \
-	adsp_mdt \
-	cmnlib_b00 \
-	cmnlib_b01 \
-	cmnlib_b02 \
-	cmnlib_b03 \
-	cmnlib_mdt \
-	cpp_firmware_v1_1_1 \
-	cpp_firmware_v1_1_6 \
-	cpp_firmware_v1_2_0 \
 	leia_pfp_470 \
 	leia_pm4_470 \
-	mba_b00 \
-	mba_mdt \
-	touch_module_id_0x45 \
-	touch_module_id_0x48 \
-	touch_module_id_0x4d \
-	touch_module_id_0x4e \
-	tzhdcp_b00 \
-	tzhdcp_b01 \
-	tzhdcp_b02 \
-	tzhdcp_b03 \
-	tzhdcp_mdt \
-	tzlibasb_b00 \
-	tzlibasb_b01 \
-	tzlibasb_b02 \
-	tzlibasb_b03 \
-	tzlibasb_mdt \
-	tznautilus_b00 \
-	tznautilus_b01 \
-	tznautilus_b02 \
-	tznautilus_b03 \
-	tznautilus_mdt \
-	tzsuntory_b00 \
-	tzsuntory_b01 \
-	tzsuntory_b02 \
-	tzsuntory_b03 \
-	tzsuntory_mdt \
-	tzwidevine_b00 \
-	tzwidevine_b01 \
-	tzwidevine_b02 \
-	tzwidevine_b03 \
-	tzwidevine_mdt \
-	venus_b00 \
-	venus_b01 \
-	venus_b02 \
-	venus_b03 \
-	venus_b04 \
-	venus_mbn \
-	venus_mdt \
 	libidd \
 	libkeyctrl \
 	libmiscta \

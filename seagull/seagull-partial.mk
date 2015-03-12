@@ -46,5 +46,5 @@ PRODUCT_PACKAGES += \
 	venus_b03 \
 	venus_b04 \
 	venus_mdt \
-	sensors.default \
+	sensors.msm8226 \
 	libpn547_fw

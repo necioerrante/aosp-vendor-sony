@@ -16,9 +16,9 @@ LOCAL_PATH := $(call my-dir)
 
 ifneq ($(filter shinano shinano2,$(PRODUCT_PLATFORM)),)
 include $(CLEAR_VARS)
-LOCAL_MODULE := bt_addr
+LOCAL_MODULE := addrsetup
 LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := bin/bt_addr
+LOCAL_SRC_FILES := bin/addrsetup
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := 
 LOCAL_MODULE_CLASS := EXECUTABLES

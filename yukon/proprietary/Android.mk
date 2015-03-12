@@ -16,9 +16,9 @@ LOCAL_PATH := $(call my-dir)
 
 ifeq ($(PRODUCT_PLATFORM),yukon)
 include $(CLEAR_VARS)
-LOCAL_MODULE := bt_addr
+LOCAL_MODULE := addrsetup
 LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := bin/bt_addr
+LOCAL_SRC_FILES := bin/addrsetup
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := 
 LOCAL_MODULE_CLASS := EXECUTABLES
@@ -119,16 +119,6 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := tad_static
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := bin/tad_static
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := 
-LOCAL_MODULE_CLASS := EXECUTABLES
-LOCAL_MODULE_PATH := $(TARGET_OUT)/bin
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := wcnss_addr
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := bin/wcnss_addr
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := 
 LOCAL_MODULE_CLASS := EXECUTABLES

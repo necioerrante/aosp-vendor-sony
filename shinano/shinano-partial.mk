@@ -13,7 +13,7 @@
 # limitations under the License.
 
 PRODUCT_PACKAGES += \
-	bt_addr \
+	addrsetup \
 	hvdcp \
 	irsc_util \
 	mlog_qmi_service \

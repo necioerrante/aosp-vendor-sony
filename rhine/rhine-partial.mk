@@ -13,7 +13,7 @@
 # limitations under the License.
 
 PRODUCT_PACKAGES += \
-	bt_addr \
+	addrsetup \
 	hci_qcomm_init \
 	hvdcp \
 	irsc_util \
@@ -24,7 +24,6 @@ PRODUCT_PACKAGES += \
 	sct_service \
 	ta_qmi_service \
 	tad_static \
-	wcnss_addr \
 	MTP_Bluetooth_cal \
 	MTP_General_cal \
 	MTP_Global_cal \

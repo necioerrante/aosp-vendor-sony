@@ -372,9 +372,9 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := sensors.default
+LOCAL_MODULE := sensors.msm8226
 LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := lib/hw/sensors.default.so
+LOCAL_SRC_FILES := lib/hw/sensors.msm8226.so
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES

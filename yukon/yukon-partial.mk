@@ -44,12 +44,17 @@ PRODUCT_PACKAGES += \
 	WCNSS_cfg \
 	WCNSS_qcom_cfg \
 	WCNSS_qcom_wlan_nv \
+	libcnefeatureconfig \
 	libidd \
 	libkeyctrl \
+	libmdmdetect \
 	libmiscta \
 	libpin-cache \
 	libprotobuf-c \
+	librmnetctl \
+	libstartup-reason \
 	libta \
+	libxml2 \
 	audio_effects \
 	keymaster_b00 \
 	keymaster_b01 \
@@ -79,6 +84,8 @@ PRODUCT_PACKAGES += \
 	libc2d30-a3xx \
 	libc2d30-a4xx \
 	libc2d30 \
+	libcneapiclient \
+	libconfigdb \
 	libdiag \
 	libdrmfs \
 	libdsi_netctrl \
@@ -92,6 +99,7 @@ PRODUCT_PACKAGES += \
 	libmm-abl \
 	libmm-color-convertor \
 	libnetmgr \
+	libperipheral_client \
 	libqcci_legacy \
 	libqdi \
 	libqdp \
@@ -108,7 +116,10 @@ PRODUCT_PACKAGES += \
 	librs_adreno_sha1 \
 	libsc-a2xx \
 	libsc-a3xx \
+	libsmemlog \
+	libsystem_health_mon \
 	libtime_genoff \
+	libxml \
 	libqcbassboost \
 	libqcreverb \
 	libqcvirt

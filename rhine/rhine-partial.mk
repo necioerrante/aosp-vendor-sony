@@ -13,17 +13,7 @@
 # limitations under the License.
 
 PRODUCT_PACKAGES += \
-	addrsetup \
 	hci_qcomm_init \
-	hvdcp \
-	irsc_util \
-	netmgrd \
-	qmuxd \
-	qseecomd \
-	rmt_storage \
-	sct_service \
-	ta_qmi_service \
-	tad_static \
 	MTP_Bluetooth_cal \
 	MTP_General_cal \
 	MTP_Global_cal \
@@ -31,13 +21,6 @@ PRODUCT_PACKAGES += \
 	MTP_Hdmi_cal \
 	MTP_Headset_cal \
 	MTP_Speaker_cal \
-	a225_pfp \
-	a225_pm4 \
-	a225p5_pm4 \
-	a300_pfp \
-	a300_pm4 \
-	a330_pfp \
-	a330_pm4 \
 	adsp_b00 \
 	adsp_b01 \
 	adsp_b02 \
@@ -59,8 +42,6 @@ PRODUCT_PACKAGES += \
 	cpp_firmware_v1_1_1 \
 	cpp_firmware_v1_1_6 \
 	cpp_firmware_v1_2_0 \
-	leia_pfp_470 \
-	leia_pm4_470 \
 	mba_b00 \
 	mba_mdt \
 	touch_module_id_0x45 \
@@ -120,18 +101,6 @@ PRODUCT_PACKAGES += \
 	WCNSS_cfg \
 	WCNSS_qcom_cfg \
 	WCNSS_qcom_wlan_nv \
-	nfc.msm8974 \
-	libcnefeatureconfig \
-	libidd \
-	libkeyctrl \
-	libmdmdetect \
-	libmiscta \
-	libpin-cache \
-	libprotobuf-c \
-	librmnetctl \
-	libstartup-reason \
-	libta \
-	libxml2 \
 	audio_effects \
 	effect_init_params \
 	keymaster_b00 \
@@ -140,68 +109,15 @@ PRODUCT_PACKAGES += \
 	keymaster_b03 \
 	keymaster_mdt \
 	libpn544_fw \
-	eglsubAndroid \
-	libEGL_adreno \
-	libGLESv1_CM_adreno \
-	libGLESv2_adreno \
-	libq3dtools_adreno \
+	nfc.msm8974 \
 	sensors.msm8974 \
-	libC2D2 \
-	libOpenCL \
-	libOpenVG \
-	libQSEEComAPI \
-	libRSDriver_adreno \
 	libacdbloader \
 	libacdbmapper \
 	libacdbrtac \
 	libadiertac \
-	libadreno_utils \
 	libadsprpc \
 	libaudcal \
 	libaudioalsa \
 	libbtnv \
-	libc2d2_z180 \
-	libc2d30-a3xx \
-	libc2d30-a4xx \
-	libc2d30 \
-	libcneapiclient \
-	libconfigdb \
-	libdiag \
-	libdrmfs \
-	libdsi_netctrl \
-	libdsnetutils \
-	libdsutils \
-	libgsl \
-	libidl \
-	libloc_api_v02 \
-	libloc_ds_api \
-	libmm-abl-oem \
-	libmm-abl \
-	libmm-color-convertor \
-	libnetmgr \
-	libperipheral_client \
-	libqcci_legacy \
-	libqdi \
-	libqdp \
-	libqmi \
-	libqmi_cci \
-	libqmi_client_qmux \
-	libqmi_common_so \
-	libqmi_csi \
-	libqmi_csvt_srvc \
-	libqmi_encdec \
-	libqmiservices \
-	libril-qc-qmi-1 \
-	librs_adreno \
-	librs_adreno_sha1 \
-	libsc-a2xx \
-	libsc-a3xx \
 	libsensor1 \
-	libsensor_reg \
-	libsmemlog \
-	libsystem_health_mon \
-	libtime_genoff \
-	libxml \
-	libqcbassboost \
-	libqcreverb \
-	libqcvirt
+	libsensor_reg

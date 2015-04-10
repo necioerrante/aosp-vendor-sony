@@ -13,17 +13,6 @@
 # limitations under the License.
 
 PRODUCT_PACKAGES += \
-	addrsetup \
-	hvdcp \
-	irsc_util \
-	netmgrd \
-	qmiproxy \
-	qmuxd \
-	qseecomd \
-	rmt_storage \
-	sct_service \
-	ta_qmi_service \
-	tad_static \
 	wcnss_service \
 	MTP_Bluetooth_cal \
 	MTP_General_cal \
@@ -32,94 +21,20 @@ PRODUCT_PACKAGES += \
 	MTP_Hdmi_cal \
 	MTP_Headset_cal \
 	MTP_Speaker_cal \
-	a225_pfp \
-	a225_pm4 \
-	a225p5_pm4 \
-	a300_pfp \
-	a300_pm4 \
-	a330_pfp \
-	a330_pm4 \
-	leia_pfp_470 \
-	leia_pm4_470 \
 	WCNSS_cfg \
 	WCNSS_qcom_cfg \
 	WCNSS_qcom_wlan_nv \
-	libcnefeatureconfig \
-	libidd \
-	libkeyctrl \
-	libmdmdetect \
-	libmiscta \
-	libpin-cache \
-	libprotobuf-c \
-	librmnetctl \
-	libstartup-reason \
-	libta \
-	libxml2 \
 	audio_effects \
 	keymaster_b00 \
 	keymaster_b01 \
 	keymaster_b02 \
 	keymaster_b03 \
 	keymaster_mdt \
-	eglsubAndroid \
-	libEGL_adreno \
-	libGLESv1_CM_adreno \
-	libGLESv2_adreno \
-	libq3dtools_adreno \
-	libC2D2 \
-	libOpenCL \
-	libOpenVG \
-	libQSEEComAPI \
-	libRSDriver_adreno \
 	libacdbloader \
 	libacdbmapper \
 	libacdbrtac \
 	libadiertac \
-	libadreno_utils \
 	libadsprpc \
 	libaudcal \
 	libaudioalsa \
-	libbtnv \
-	libc2d2_z180 \
-	libc2d30-a3xx \
-	libc2d30-a4xx \
-	libc2d30 \
-	libcneapiclient \
-	libconfigdb \
-	libdiag \
-	libdrmfs \
-	libdsi_netctrl \
-	libdsnetutils \
-	libdsutils \
-	libgsl \
-	libidl \
-	libloc_api_v02 \
-	libloc_ds_api \
-	libmm-abl-oem \
-	libmm-abl \
-	libmm-color-convertor \
-	libnetmgr \
-	libperipheral_client \
-	libqcci_legacy \
-	libqdi \
-	libqdp \
-	libqmi \
-	libqmi_cci \
-	libqmi_client_qmux \
-	libqmi_common_so \
-	libqmi_csi \
-	libqmi_csvt_srvc \
-	libqmi_encdec \
-	libqmiservices \
-	libril-qc-qmi-1 \
-	librs_adreno \
-	librs_adreno_sha1 \
-	libsc-a2xx \
-	libsc-a3xx \
-	libsmemlog \
-	libsystem_health_mon \
-	libtime_genoff \
-	libxml \
-	libqcbassboost \
-	libqcreverb \
-	libqcvirt
+	libbtnv

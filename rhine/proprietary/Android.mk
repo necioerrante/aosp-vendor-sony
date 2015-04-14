@@ -16,16 +16,6 @@ LOCAL_PATH := $(call my-dir)
 
 ifeq ($(PRODUCT_PLATFORM),rhine)
 include $(CLEAR_VARS)
-LOCAL_MODULE := hci_qcomm_init
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := bin/hci_qcomm_init
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := 
-LOCAL_MODULE_CLASS := EXECUTABLES
-LOCAL_MODULE_PATH := $(TARGET_OUT)/bin
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := MTP_Bluetooth_cal
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb
@@ -949,26 +939,6 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := .bin
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware/wlan/prima
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := audio_effects
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := vendor/etc/audio_effects.conf
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .conf
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/etc
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := effect_init_params
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := vendor/etc/effect_init_params
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := 
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/etc
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)

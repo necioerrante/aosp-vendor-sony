@@ -13,7 +13,6 @@
 # limitations under the License.
 
 PRODUCT_PACKAGES += \
-	hci_qcomm_init \
 	TRULY_GFF_FW \
 	VersionInformation \
 	WINTEK_OGS_FW \

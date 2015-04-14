@@ -24,7 +24,6 @@ PRODUCT_PACKAGES += \
 	WCNSS_cfg \
 	WCNSS_qcom_cfg \
 	WCNSS_qcom_wlan_nv \
-	audio_effects \
 	keymaster_b00 \
 	keymaster_b01 \
 	keymaster_b02 \

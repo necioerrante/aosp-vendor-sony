@@ -20,8 +20,6 @@ PRODUCT_PACKAGES += \
 	MTP_Hdmi_cal \
 	MTP_Headset_cal \
 	MTP_Speaker_cal \
-	audio_effects \
-	effect_init_params \
 	keymaster_b00 \
 	keymaster_b01 \
 	keymaster_b02 \

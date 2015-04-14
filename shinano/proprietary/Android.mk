@@ -86,26 +86,6 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/acdbdata/MTP
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := audio_effects
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := vendor/etc/audio_effects.conf
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .conf
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/etc
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := effect_init_params
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := vendor/etc/effect_init_params
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := 
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/etc
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := keymaster_b00
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/firmware/keymaster/keymaster.b00

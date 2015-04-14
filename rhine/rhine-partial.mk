@@ -13,7 +13,6 @@
 # limitations under the License.
 
 PRODUCT_PACKAGES += \
-	hci_qcomm_init \
 	MTP_Bluetooth_cal \
 	MTP_General_cal \
 	MTP_Global_cal \
@@ -101,8 +100,6 @@ PRODUCT_PACKAGES += \
 	WCNSS_cfg \
 	WCNSS_qcom_cfg \
 	WCNSS_qcom_wlan_nv \
-	audio_effects \
-	effect_init_params \
 	keymaster_b00 \
 	keymaster_b01 \
 	keymaster_b02 \

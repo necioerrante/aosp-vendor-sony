@@ -14,7 +14,6 @@
 
 PRODUCT_PACKAGES += \
 	btnvtool \
-	hci_qcomm_init \
 	Signedrompatch_v20 \
 	Signedrompatch_v21 \
 	Signedrompatch_v24 \

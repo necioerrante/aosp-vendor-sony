@@ -13,8 +13,10 @@
 # limitations under the License.
 
 PRODUCT_PACKAGES += \
-	hci_qcomm_init \
 	sensors \
+	Signedrompatch_v20 \
+	Signedrompatch_v21 \
+	Signedrompatch_v24 \
 	adsp_b00 \
 	adsp_b01 \
 	adsp_b02 \
@@ -40,6 +42,7 @@ PRODUCT_PACKAGES += \
 	cyttsp4_fw \
 	mba_b00 \
 	mba_mdt \
+	nfc_test \
 	tzhdcp_b00 \
 	tzhdcp_b01 \
 	tzhdcp_b02 \

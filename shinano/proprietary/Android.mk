@@ -92,7 +92,7 @@ LOCAL_SRC_FILES := vendor/firmware/keymaster/keymaster.b00
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_STEM := keymaster
 LOCAL_MODULE_SUFFIX := .b00
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/firmware/keymaster
 include $(BUILD_PREBUILT)
 
@@ -103,7 +103,7 @@ LOCAL_SRC_FILES := vendor/firmware/keymaster/keymaster.b01
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_STEM := keymaster
 LOCAL_MODULE_SUFFIX := .b01
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/firmware/keymaster
 include $(BUILD_PREBUILT)
 
@@ -114,7 +114,7 @@ LOCAL_SRC_FILES := vendor/firmware/keymaster/keymaster.b02
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_STEM := keymaster
 LOCAL_MODULE_SUFFIX := .b02
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/firmware/keymaster
 include $(BUILD_PREBUILT)
 
@@ -125,7 +125,7 @@ LOCAL_SRC_FILES := vendor/firmware/keymaster/keymaster.b03
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_STEM := keymaster
 LOCAL_MODULE_SUFFIX := .b03
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/firmware/keymaster
 include $(BUILD_PREBUILT)
 
@@ -136,7 +136,7 @@ LOCAL_SRC_FILES := vendor/firmware/keymaster/keymaster.mdt
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_STEM := keymaster
 LOCAL_MODULE_SUFFIX := .mdt
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/firmware/keymaster
 include $(BUILD_PREBUILT)
 
@@ -234,26 +234,6 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := libbtnv
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib/libbtnv.so
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := libsensor1
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := vendor/lib/libsensor1.so
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := libsensor_reg
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := vendor/lib/libsensor_reg.so
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES

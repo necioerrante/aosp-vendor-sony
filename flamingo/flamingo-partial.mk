@@ -91,6 +91,4 @@ PRODUCT_PACKAGES += \
 	widevine_b03 \
 	widevine_mdt \
 	libpn547_fw \
-	sensors.msm8226 \
-	libsensor1 \
-	libsensor_reg
+	sensors.msm8226

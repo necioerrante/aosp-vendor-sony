@@ -34,6 +34,4 @@ PRODUCT_PACKAGES += \
 	libadsprpc \
 	libaudcal \
 	libaudioalsa \
-	libbtnv \
-	libsensor1 \
-	libsensor_reg
+	libbtnv

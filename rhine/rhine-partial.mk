@@ -20,6 +20,10 @@ PRODUCT_PACKAGES += \
 	MTP_Hdmi_cal \
 	MTP_Headset_cal \
 	MTP_Speaker_cal \
+	Signedrompatch_v20 \
+	Signedrompatch_v21 \
+	Signedrompatch_v24 \
+	Signedrompatch_v30 \
 	adsp_b00 \
 	adsp_b01 \
 	adsp_b02 \
@@ -43,6 +47,14 @@ PRODUCT_PACKAGES += \
 	cpp_firmware_v1_2_0 \
 	mba_b00 \
 	mba_mdt \
+	nfc_test \
+	touch_chip_id_0x74_config_id_0x0011 \
+	touch_chip_id_0x74_config_id_0x0460 \
+	touch_chip_id_0x75_config_id_0x0010 \
+	touch_chip_id_0x75_config_id_0x0012 \
+	touch_chip_id_0x75_config_id_0x0013 \
+	touch_module_id_0x43 \
+	touch_module_id_0x44 \
 	touch_module_id_0x45 \
 	touch_module_id_0x48 \
 	touch_module_id_0x49 \
@@ -115,6 +127,4 @@ PRODUCT_PACKAGES += \
 	libadsprpc \
 	libaudcal \
 	libaudioalsa \
-	libbtnv \
-	libsensor1 \
-	libsensor_reg
+	libbtnv

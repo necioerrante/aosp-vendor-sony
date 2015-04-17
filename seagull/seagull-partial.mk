@@ -13,6 +13,9 @@
 # limitations under the License.
 
 PRODUCT_PACKAGES += \
+	Signedrompatch_v20 \
+	Signedrompatch_v21 \
+	Signedrompatch_v24 \
 	TRULY_GFF_FW \
 	VersionInformation \
 	WINTEK_OGS_FW \
@@ -24,6 +27,7 @@ PRODUCT_PACKAGES += \
 	cpp_firmware_v1_1_1 \
 	cpp_firmware_v1_1_6 \
 	cpp_firmware_v1_2_0 \
+	nfc_test \
 	tzhdcp_b00 \
 	tzhdcp_b01 \
 	tzhdcp_b02 \
